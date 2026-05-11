@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("2.png");
+    min-height: 100vh;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------------- HEADER ---------------- */
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+header > div{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.i{
+    height: 60px;
+}
+
+/* ---------------- MENU ---------------- */
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+li a:hover{
+    opacity: 0.7;
+}
+
+form{
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+input{
+    width: 180px;
+    height: 38px;
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    outline: none;
+    background: transparent;
+    padding-left: 20px;
+    color: white;
+}
+
+::placeholder{
+    color: white;
+}
+
+/* ---------------- SOCIAL ---------------- */
+
+.socies{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.z{
+    height: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.z:hover{
+    transform: scale(1.1);
+}
+
+/* ---------------- FIRST SECTION ---------------- */
+
+.layers{
+    width: 90%;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.layer1{
+    width: 45%;
+}
+
+.layer1 h1{
+    font-size: 85px;
+    line-height: 85px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.layer1 .desc{
+    width: 80%;
+    color: rgba(255,255,255,0.8);
+    line-height: 28px;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+
+button{
+    width: 180px;
+    height: 50px;
+    border-radius: 35px;
+    border: 2px solid rgba(255,255,255,0.5);
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: white;
+    color: #8b148c;
+}
+
+/* ---------------- HOUSE IMAGE ---------------- */
+
+.layer2 img{
+    width: 520px;
+    filter: drop-shadow(0 0 25px rgba(0,255,255,0.3));
+}
+
+.neww{
+    margin-left: 250px;
+
+}
+.c{
+    margin-left: 250px;
+}
+.k{
+    
+    margin-left: 600px;
+}
+h4{
+    margin-left: 600px;
+}
+
+/* ---------------- SECOND SECTION ---------------- */
+ .new{
+    opacity: 0.1;
+ }
+.layer3{
+    width: 90%;
+    margin: 120px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.b{
+    width: 420px;
+}
+
+.info{
+    width: 40%;
+}
+
+.info h2{
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.info h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgba(255,255,255,0.9);
+}
+
+.info p{
+    line-height: 28px;
+    color: rgba(255,255,255,0.8);
+}
